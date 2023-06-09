@@ -450,3 +450,223 @@ footer{
     line-height: 25px;
     margin: 50px 0;
 }
+
+
+
+
+
+/*Adaptacoes do site*/
+
+
+@media (min-width:1440px){
+    .container-body-final{
+        padding: 40px 50px;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1440px){
+    .container-conteudo{
+        max-width: 1000px;
+        margin: auto;
+    }
+    .container-final{
+        max-width: 1000px;
+        margin: auto;
+    }
+    .header-area{
+        justify-content: center;
+        max-width: 1000px;
+        margin: auto;
+    }
+    .header-logo{
+        margin-left: 20px;
+    }
+    .header-menu{
+        margin-right: 0;
+    }
+    .header-menu ul a{
+        font-size: 19px;
+    }
+    .area1-text{
+        padding-left: 20px;
+    }
+    .area1-img{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .img3{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .thumb-text {
+        margin-left: 20px;
+    }
+    .thumb-img {
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 30px;
+    }
+    .thumb-img-area {
+        justify-content: center;
+        align-items: center;
+    }
+    .area3-body{
+        margin: 10px;
+    }
+    .area3-item1{
+        margin: 10px;
+    }
+    .area3-body > img{
+       max-width: 970px;
+       margin: 70px 10px 10px 10px;
+    }
+    .plataform-body-area {
+        margin-top: 40px;
+    }
+    .OurRecentProjects-item1 {
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .OurRecentProjects-item1 img {
+        margin: 20px;
+        width: 370px;
+    }
+    .container-header-final {
+        margin: 30px 10px
+    }
+    .container-body-final{
+        max-width: 1000px;
+        padding: 40px 10px;
+        justify-content: space-around;
+    }
+    .final-text{
+        margin: 10px;
+    }
+    .final-text h1,
+    .final-text p{
+        font-size: 20px;
+    }
+    .final-email {
+        margin-left: 10px;
+    }
+    .footer p,
+    .footer h1,
+    .footer h3{
+        font-size: 15px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    .container-conteudo{
+        max-width: 700px;
+        margin: auto;
+    }
+    .container-final{
+        max-width: 700px;
+        margin: auto;
+    }
+    .header-area{
+        justify-content: center;
+        max-width: 700px;
+        margin: auto;
+    }
+    .header-logo{
+        margin-left: 20px;
+    }
+    .header-menu{
+        margin-right: 0;
+    }
+    .header-menu ul a{
+        font-size: 13px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .area1{
+        display: flex;
+        flex-direction: column;
+    }
+    .area1-text{
+        padding-left: 25px;
+    }
+    .area1-img{
+        grid-template-columns: repeat(2,1fr);
+        height: 400px;
+    }
+    
+    .area1-img  .img1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .area1-img .img2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .area1-img  .img3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .thumb-text {
+        margin-left: 20px;
+    }
+    .thumb-img {
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 30px;
+    }
+    .thumb-img-area {
+        justify-content: center;
+        align-items: center;
+    }
+    .area3-header h1{
+        font-size: 25px;
+    }
+    .area3-body{
+        margin: 10px;
+    }
+    .area3-item1{
+        margin: 10px;
+    }
+    .area3-body > img{
+       max-width: 970px;
+       margin: 70px 10px 10px 10px;
+    }
+    .plataform-body-area {
+        margin-top: 40px;
+    }
+    .OurRecentProjects-item1 {
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .OurRecentProjects-item1 img {
+        margin: 20px;
+        width: 370px;
+    }
+    .container-header-final {
+        margin: 30px 10px
+    }
+    .container-body-final{
+        max-width: 1000px;
+        padding: 40px 10px;
+        justify-content: space-around;
+    }
+    .final-text{
+        margin: 10px;
+    }
+    .final-text h1,
+    .final-text p{
+        font-size: 20px;
+    }
+    .final-email {
+        margin-left: 10px;
+    }
+    .footer p,
+    .footer h1,
+    .footer h3{
+        font-size: 15px;
+    }
+}
