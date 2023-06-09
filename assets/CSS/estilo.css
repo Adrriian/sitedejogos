@@ -627,14 +627,29 @@ footer{
         margin: 10px;
     }
     .area3-item1{
-        margin: 10px;
+        margin: 15px;
+    }
+    .area3-item1 img{
+        margin-left: 20px;
+    }
+    .area3-item1-text h1{
+        font-size: 25px;
+    }
+    .area3-item1-text p{
+        font-size: 15px;
     }
     .area3-body > img{
-       max-width: 970px;
+       max-width: 700px;
        margin: 70px 10px 10px 10px;
     }
+    .plataform-header-item1 h2{
+        font-size: 20px;
+    }
+    .plataform-header-item1 P{
+        font-size: 15px;
+    }
     .plataform-body-area {
-        margin-top: 40px;
+        margin-top: 50px;
     }
     .OurRecentProjects-item1 {
         display: grid;
@@ -644,14 +659,14 @@ footer{
     }
     .OurRecentProjects-item1 img {
         margin: 20px;
-        width: 370px;
+        width: 300px;
     }
     .container-header-final {
         margin: 30px 10px
     }
     .container-body-final{
         max-width: 1000px;
-        padding: 40px 10px;
+        padding: 20px 10px;
         justify-content: space-around;
     }
     .final-text{
@@ -659,7 +674,7 @@ footer{
     }
     .final-text h1,
     .final-text p{
-        font-size: 20px;
+        font-size: 15px;
     }
     .final-email {
         margin-left: 10px;
