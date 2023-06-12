@@ -749,6 +749,7 @@ footer{
         margin-top: 30px;
         grid-template-columns: repeat(2,1fr);
         height: 300px;
+        background-image: none;
     }
     
     .area1-img  .img1{
@@ -768,6 +769,8 @@ footer{
         justify-content:center;
         align-items: center;
         margin-top: 20px;
+        grid-column-start: 1;
+        grid-column-end: 4;
     }
     .thumb-text {
         align-items: center;
