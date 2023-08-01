@@ -478,3 +478,12 @@ footer{
     line-height: 25px;
     margin: 50px 0;
 }
+.menu-mobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+}
+.menu-linha{
+    height: 3px;
+    background-color: #E47500;
+}
