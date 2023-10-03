@@ -583,12 +583,16 @@ footer{
         margin-left: 20px;
     }
     .header-menu{
-        margin-right: 0;
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
     }
+
     .header-menu ul a{
         font-size: 13px;
-        margin-left: 30px;
-        margin-right: 30px;
+        margin-top: 20px;
+    }
+    .menu{
+
     }
     .area1{
         display: flex;
@@ -710,6 +714,8 @@ footer{
         justify-content: space-between;
         max-width: 400px;
         margin: auto;
+        align-items: flex-start;
+        height: 191px;
     }
     .header-logo{
         margin-left: 0px;
@@ -726,6 +732,10 @@ footer{
         justify-content: space-around;
       
     }
+    .header-menu nav{
+        display: flex;
+       flex-direction: row;
+      }
     .header-menu nav ul{
         display: none;
         flex-direction: column;
